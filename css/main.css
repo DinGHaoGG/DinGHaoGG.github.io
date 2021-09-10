@@ -2752,7 +2752,7 @@ mark.search-keyword {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #ffcd63;
+  background: #1a545c;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -2792,8 +2792,9 @@ footer {
   padding-bottom: 25px;
 }
 .menu {
-  margining-top: 20px;
-  margining-bottom: 14px;
+  margin-top: 20px;
+  margin-bottom: 14px;
+  padding: 0px;
 }
 .post-body {
   text-align: center;
