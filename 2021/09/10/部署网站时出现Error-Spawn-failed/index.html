@@ -28,7 +28,7 @@
 <meta property="og:description" content="关于在搭建博客的过程中，进行远端部署时使用hexo d指令后可能会遇到的错误有很多，其中最常见的就是类似于下面Error: Spawn failed的错误。">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2021-09-10T11:33:59.000Z">
-<meta property="article:modified_time" content="2021-09-10T13:34:25.545Z">
+<meta property="article:modified_time" content="2021-09-10T15:09:10.120Z">
 <meta property="article:author" content="DinGHao">
 <meta property="article:tag" content="Hexo">
 <meta name="twitter:card" content="summary">
@@ -254,7 +254,7 @@
       <span class="post-meta-item-text">发表于</span>
       
 
-      <time title="创建时间：2021-09-10 19:33:59 / 修改时间：21:34:25" itemprop="dateCreated datePublished" datetime="2021-09-10T19:33:59+08:00">2021-09-10</time>
+      <time title="创建时间：2021-09-10 19:33:59 / 修改时间：23:09:10" itemprop="dateCreated datePublished" datetime="2021-09-10T19:33:59+08:00">2021-09-10</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -287,7 +287,7 @@
 <span id="more"></span>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">nothing to commit, working tree clean</span><br><span class="line">fatal: unable to access &#x27;https://github.com/DinGHaoGG/DinGHaoGG.github.io.git/&#x27;: OpenSSL SSL_read: Connection was reset, errno 10054</span><br><span class="line">FATAL &#123;</span><br><span class="line">  err: Error: Spawn failed</span><br><span class="line">      at ChildProcess.&lt;anonymous&gt; (D:\blog\node_modules\hexo-util\lib\spawn.js:51:21)</span><br><span class="line">      at ChildProcess.emit (events.js:400:28)</span><br><span class="line">      at ChildProcess.cp.emit (D:\blog\node_modules\cross-spawn\lib\enoent.js:34:29)</span><br><span class="line">      at Process.ChildProcess._handle.onexit (internal/child_process.js:277:12) &#123;</span><br><span class="line">    code: 128</span><br><span class="line">  &#125;</span><br><span class="line">&#125; Something&#x27;s wrong. Maybe you can find the solution here: %s https://hexo.io/docs/troubleshooting.html</span><br></pre></td></tr></table></figure>
 
-<p>这个错误的大致意思是不能够进入远端部署的网址，同时也生成失败。<br>解决的方法也很简单，只需从浏览器中关闭之前使用<code>hexo s</code>指令(启动服务器)时打开的本地服务器<code>http://localhost:4000/</code>即可。<br>之后重新进行<code>hexo clean</code>,<code>hexo g</code>,<code>hexo d</code>三件套指令就可以完成部署了。<br>其中<code>hexo g</code>和<code>hexo d</code>指令可以直接使用<code>hexo g -d</code>这一条指令代替，效果是一样的。<br>最后显示部署完成的结果如下:INFO Deploy done: git</p>
+<p>这个错误的大致意思是不能够进入远端部署的网址，同时也生成失败。<br>解决的方法也很简单，只需从浏览器中关闭之前使用<code>hexo s</code>指令(启动服务器)时打开的本地服务器<code>http://localhost:4000/</code>即可。<br>之后重新进行<code>hexo clean</code>,<code>hexo g</code>,<code>hexo d</code>三件套指令就可以完成部署了。<br>如果还是不成功,可以尝试关闭整个浏览器,重启Git Bash等与博客部署有关的软件。<br>网络不流畅也会影响部署的过程，出现超时的情况。<br>其中<code>hexo g</code>和<code>hexo d</code>指令可以直接使用<code>hexo g -d</code>这一条指令代替，效果是一样的。<br>最后显示部署完成的结果如下:INFO Deploy done: git</p>
 
     </div>
 
