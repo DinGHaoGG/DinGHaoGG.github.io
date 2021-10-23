@@ -2752,7 +2752,7 @@ mark.search-keyword {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #a10a5b;
+  background: #fe5cff;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -2771,28 +2771,4 @@ mark.search-keyword {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-}
-.header {
-  background-color: #f5f5f5;
-}
-.site-meta {
-  padding-bottom: 5px;
-}
-.site-meta .brand {
-  color: #222;
-  background: none;
-}
-.site-meta .site-title {
-  font-size: 24px;
-  font-weight: bold;
-}
-.main {
-  padding-bottom: 100px;
-}
-.header-inner {
-  padding-top: 25px;
-}
-.menu {
-  margin-top: 5px;
-  padding: 0px;
 }
