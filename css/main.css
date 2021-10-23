@@ -2752,7 +2752,7 @@ mark.search-keyword {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #ff0912;
+  background: #ff86c7;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -2795,7 +2795,4 @@ mark.search-keyword {
 .menu {
   margin-top: 5px;
   padding: 0px;
-}
-body {
-  background: url("/images/wallpaper.jpg");
 }
