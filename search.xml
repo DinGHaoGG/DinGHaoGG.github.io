@@ -10,6 +10,40 @@
       </categories>
   </entry>
   <entry>
+    <title>如何新建一篇博客文章</title>
+    <url>/2021/10/27/%E5%A6%82%E4%BD%95%E6%96%B0%E5%BB%BA%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="使用命令生成Markdown文件"><a href="#使用命令生成Markdown文件" class="headerlink" title="使用命令生成Markdown文件"></a>使用命令生成Markdown文件</h1><h2 id="什么是Markdown"><a href="#什么是Markdown" class="headerlink" title="什么是Markdown?"></a>什么是Markdown?</h2><p>Markdown 是一种 <strong>轻量级标记语言</strong>，它允许人们使用易读易写的纯文本格式编写文档。</p>
+<p>关于Markdown的用法可以到<a href="https://www.runoob.com/markdown/md-tutorial.html">Markdown 教程 | 菜鸟教程 (runoob.com)</a>上学习。</p>
+<p>Markdown 编写的文档后缀为 <code>.md</code>, <code>.markdown</code>.</p>
+<h2 id="用命令在博客目录下生成Markdown文件"><a href="#用命令在博客目录下生成Markdown文件" class="headerlink" title="用命令在博客目录下生成Markdown文件"></a>用命令在博客目录下生成Markdown文件</h2><p>在博客文件夹下，点击右键选择<code>Git Bash Here</code>，在打开的窗口中使用下方git命令生成新的页</p>
+<blockquote>
+<p>$ hexo n 文件名</p>
+</blockquote>
+<p>或</p>
+<blockquote>
+<p>$ hexo new 文件名</p>
+</blockquote>
+<p>文件名为博客文章的名称，例如生成本篇博客的命令为</p>
+<blockquote>
+<p>$ hexo n 如何新建一篇博客文章</p>
+</blockquote>
+<p>之后系统就会在默认的目录下生成你的Markdown文件，以我的博客路径为例，我的博客文件叫blog，放在D盘下，所以生成的文件的默认路径为：<code>D:\blog\source\_posts</code>，使用指定路径的git命令也会在自定义的路径下生成，关于其他的新建page的指令可以参考官方文档<a href="https://hexo.io/zh-cn/docs/commands">指令 | Hexo</a>.</p>
+<hr>
+<h1 id="用Markdown编辑器编辑文件内容"><a href="#用Markdown编辑器编辑文件内容" class="headerlink" title="用Markdown编辑器编辑文件内容"></a>用Markdown编辑器编辑文件内容</h1><p>博主使用的是Typora编辑器，Typora 支持 MacOS 、Windows、Linux 平台，且包含多种主题，编辑后直接渲染出效果。支持导出HTML、PDF、Word、图片等多种类型文件。</p>
+<p>Typora 官网：<a href="https://typora.io/">Typora</a></p>
+<p>可以在官网下载使用。</p>
+<p>当然Markdown的编辑器有很多，不一定只局限于Typora，更多主流的编辑器可以到CSDN该博主的文章中进行参考和选择<a href="https://itrhx.blog.csdn.net/article/details/82229243">最新主流 Markdown 编辑器推荐_TRHX’S BLOG-CSDN博客_markdown编辑器推荐</a>.</p>
+<p>用编辑器写好博客内容就可以直接发布啦~</p>
+<p>至此关于如何新建第一篇博客文章的内容就结束了，因为博主也是刚搭建好博客不久，想把自己学到的知识记录下来，如果该文章中出现了什么错误或是对文章的内容有什么疑问，欢迎大家在下方评论。</p>
+]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>hexo d部署网站时出现错误Error: Spawn failed(生成失败)</title>
     <url>/2021/09/10/%E9%83%A8%E7%BD%B2%E7%BD%91%E7%AB%99%E6%97%B6%E5%87%BA%E7%8E%B0Error-Spawn-failed/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>关于博客使用过程中，进行远端部署时使用<code>hexo d</code>指令后可能会遇到的错误有很多，其中最常见的就是类似于下面<code>Error: Spawn failed</code>的错误。</p>
