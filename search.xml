@@ -1,126 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Markdown学习笔记</title>
-    <url>/2023/05/20/Markdown%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>这是一个Markdown学习笔记,用于方便我复习和查阅具体语法</p>
-<p><a href="https://www.runoob.com/markdown/md-tutorial.html">学习链接</a></p>
-<h1 id="1-标题"><a href="#1-标题" class="headerlink" title="1.标题"></a>1.标题</h1><h2 id="方式1-使用-号来表示1-6级标题"><a href="#方式1-使用-号来表示1-6级标题" class="headerlink" title="方式1:使用#号来表示1~6级标题"></a>方式1:使用<code>#</code>号来表示1~6级标题</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 这是一级标题</span><br><span class="line">## 二级标题</span><br><span class="line">### 三级标题</span><br><span class="line">#### 四级标题</span><br><span class="line">...</span><br></pre></td></tr></table></figure>
-<p>上面的语法的显示如下:</p>
-<h1 id="这是一级标题"><a href="#这是一级标题" class="headerlink" title="这是一级标题"></a>这是一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><p>…</p>
-<h2 id="方式2-在标题后换行并添加-来表示一级标题、-来表示二级标题-例如"><a href="#方式2-在标题后换行并添加-来表示一级标题、-来表示二级标题-例如" class="headerlink" title="方式2:在标题后换行并添加===来表示一级标题、---来表示二级标题,例如"></a>方式2:在标题后换行并添加<code>===</code>来表示一级标题、<code>---</code>来表示二级标题,例如</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">这是一级标题</span><br><span class="line">===</span><br></pre></td></tr></table></figure>
-<p>上面的语法的显示如下:</p>
-<h1 id="这是一级标题-1"><a href="#这是一级标题-1" class="headerlink" title="这是一级标题"></a>这是一级标题</h1><h1 id="2-段落换行"><a href="#2-段落换行" class="headerlink" title="2.段落换行"></a>2.段落换行</h1><h2 id="方式1-在第一行后面添加两个空格并换行"><a href="#方式1-在第一行后面添加两个空格并换行" class="headerlink" title="方式1:在第一行后面添加两个空格并换行"></a>方式1:在第一行后面添加两个空格并换行</h2><p>第一行(这有两个空格)<br>第二行</p>
-<h2 id="方式2-在第一行后添加一个空行"><a href="#方式2-在第一行后添加一个空行" class="headerlink" title="方式2:在第一行后添加一个空行"></a>方式2:在第一行后添加一个空行</h2><p>第一行<br>(空出一行)<br>第二行</p>
-<h1 id="3-字体"><a href="#3-字体" class="headerlink" title="3.字体"></a>3.字体</h1><h2 id="Markdown有以下3种字体，在两端加-星号实现"><a href="#Markdown有以下3种字体，在两端加-星号实现" class="headerlink" title="Markdown有以下3种字体，在两端加*星号实现"></a>Markdown有以下3种字体，在两端加<code>*</code>星号实现</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">*斜体*  </span><br><span class="line">**粗体**  </span><br><span class="line">***斜粗体***</span><br></pre></td></tr></table></figure>
-<p>上面的语法的显示如下:</p>
-<p><em>斜体</em><br><strong>粗体</strong><br><em><strong>斜粗体</strong></em></p>
-<h2 id="同时也可以用-下划线代替-星号-例如"><a href="#同时也可以用-下划线代替-星号-例如" class="headerlink" title="同时也可以用_下划线代替*星号,例如"></a>同时也可以用<code>_</code>下划线代替<code>*</code>星号,例如</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">_斜体_</span><br></pre></td></tr></table></figure>
-<p>上面的语法的显示如下:   <em>斜体</em></p>
-<h1 id="4-分隔线"><a href="#4-分隔线" class="headerlink" title="4.分隔线"></a>4.分隔线</h1><h2 id="在一行中用三个以上的-星号、-减号、-下划线来建立分割线，行内不能有其他字符"><a href="#在一行中用三个以上的-星号、-减号、-下划线来建立分割线，行内不能有其他字符" class="headerlink" title="在一行中用三个以上的*星号、-减号、_下划线来建立分割线，行内不能有其他字符"></a>在一行中用三个以上的<code>*</code>星号、<code>-</code>减号、<code>_</code>下划线来建立分割线，行内不能有其他字符</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">***</span><br><span class="line">---</span><br><span class="line">___</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<p>上面的语法的显示如下: </p>
-<hr>
-<hr>
-<hr>
-<h1 id="5-删除线"><a href="#5-删除线" class="headerlink" title="5.删除线"></a>5.删除线</h1><h2 id="在文字的两端加"><a href="#在文字的两端加" class="headerlink" title="在文字的两端加~~"></a>在文字的两端加<code>~~</code></h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">~~这是一条删除线~~</span><br></pre></td></tr></table></figure>
-<p>上面的语法的显示如下:<del>这是一条删除线</del></p>
-<h1 id="6-下划线"><a href="#6-下划线" class="headerlink" title="6.下划线"></a>6.下划线</h1><h2 id="通过使用HTML中的-lt-u-gt-标签来实现"><a href="#通过使用HTML中的-lt-u-gt-标签来实现" class="headerlink" title="通过使用HTML中的&lt;u&gt;标签来实现"></a>通过使用HTML中的<code>&lt;u&gt;</code>标签来实现</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;u&gt;这是一条下划线&lt;/u&gt;</span><br></pre></td></tr></table></figure>
-<p>上面的语法的显示如下:<u>这是一条下划线</u></p>
-<h1 id="7-脚注"><a href="#7-脚注" class="headerlink" title="7.脚注"></a>7.脚注</h1><h2 id="脚注的格式为-要注明的文本"><a href="#脚注的格式为-要注明的文本" class="headerlink" title="脚注的格式为: [^要注明的文本]"></a>脚注的格式为: [^要注明的文本]</h2><p>这是一个脚注[^脚注]<br>[^脚注]:脚注的内容</p>
-<h1 id="8-列表"><a href="#8-列表" class="headerlink" title="8.列表"></a>8.列表</h1><h2 id="1-无序列表-在前面加-星号、-加号、-减号都可以"><a href="#1-无序列表-在前面加-星号、-加号、-减号都可以" class="headerlink" title="1.无序列表,在前面加*星号、+加号、-减号都可以"></a>1.无序列表,在前面加<code>*</code>星号、<code>+</code>加号、<code>-</code>减号都可以</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">* 第一项</span><br><span class="line">+ 第二项</span><br><span class="line">- 第三项</span><br></pre></td></tr></table></figure>
-<p>上面的语法的显示如下:</p>
-<ul>
-<li>第一项</li>
-</ul>
-<ul>
-<li>第二项</li>
-</ul>
-<ul>
-<li>第三项</li>
-</ul>
-<h2 id="2-有序列表，使用数字并加上-点号"><a href="#2-有序列表，使用数字并加上-点号" class="headerlink" title="2.有序列表，使用数字并加上.点号"></a>2.有序列表，使用数字并加上<code>.</code>点号</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1. 第一项</span><br><span class="line">2. 第二项</span><br><span class="line">3. 第三项</span><br></pre></td></tr></table></figure>
-<p>上面的语法的显示如下:</p>
-<ol>
-<li>第一项</li>
-<li>第二项</li>
-<li>第三项</li>
-</ol>
-<h2 id="3-嵌套列表，在子列表的前面加上四个空格"><a href="#3-嵌套列表，在子列表的前面加上四个空格" class="headerlink" title="3.嵌套列表，在子列表的前面加上四个空格"></a>3.嵌套列表，在子列表的前面加上四个空格</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1. 第一项</span><br><span class="line">    * 第一项的第一个元素</span><br><span class="line">    * 第二个元素</span><br><span class="line">2. 第二项</span><br><span class="line">    * 第二项的第一个元素</span><br><span class="line">    * 第二个元素</span><br></pre></td></tr></table></figure>
-<p>上面的语法的显示如下:</p>
-<ol>
-<li>第一项<ul>
-<li>第一项的第一个元素</li>
-<li>第二个元素</li>
-</ul>
-</li>
-<li>第二项<ul>
-<li>第二项的第一个元素</li>
-<li>第二个元素</li>
-</ul>
-</li>
-</ol>
-<h1 id="9-区块"><a href="#9-区块" class="headerlink" title="9.区块"></a>9.区块</h1><h2 id="在段落开头使用-gt-大于符号"><a href="#在段落开头使用-gt-大于符号" class="headerlink" title="在段落开头使用&gt;大于符号"></a>在段落开头使用<code>&gt;</code>大于符号</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&gt;区块的使用    </span><br><span class="line">&gt;这一片区域就是区块</span><br><span class="line"></span><br><span class="line">&gt;这是第二个区块</span><br></pre></td></tr></table></figure>
-<p>上面的语法的显示如下:</p>
-<blockquote>
-<p>区块的使用<br>这一片区域就是区块</p>
-</blockquote>
-<blockquote>
-<p>这是第二个区块</p>
-</blockquote>
-<h2 id="区块可以和列表搭配使用"><a href="#区块可以和列表搭配使用" class="headerlink" title="区块可以和列表搭配使用"></a>区块可以和列表搭配使用</h2><p>区块中使用列表</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">上面的语法的显示如下:</span><br><span class="line">&gt;1. 第一项</span><br><span class="line">&gt;    * 第一项的子项</span><br><span class="line">&gt;2. 第二项</span><br></pre></td></tr></table></figure>
-<p>上面的语法的显示如下:</p>
-<blockquote>
-<ol>
-<li>第一项<ul>
-<li>第一项的子项</li>
-</ul>
-</li>
-<li>第二项</li>
-</ol>
-</blockquote>
-<p>列表中使用区块</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1. 第一项</span><br><span class="line">    &gt;这是一个区块  </span><br><span class="line">    &gt;区块内容</span><br><span class="line">2. 第二项</span><br></pre></td></tr></table></figure>
-<p>上面的语法的显示如下:</p>
-<ol>
-<li>第一项<blockquote>
-<p>这是一个区块<br>区块内容</p>
-</blockquote>
-</li>
-<li>第二项</li>
-</ol>
-<h1 id="10-代码"><a href="#10-代码" class="headerlink" title="10.代码"></a>10.代码</h1><h2 id="1-单个函数或代码片段可以在两端加上-符号"><a href="#1-单个函数或代码片段可以在两端加上-符号" class="headerlink" title="1.单个函数或代码片段可以在两端加上`符号"></a>1.单个函数或代码片段可以在两端加上<code>`</code>符号</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">`print()`函数</span><br></pre></td></tr></table></figure>
-<p>上面的语法的显示如下:<code>print()</code>函数</p>
-<h2 id="2-代码区块-在代码区块前加四个空格-一个tab"><a href="#2-代码区块-在代码区块前加四个空格-一个tab" class="headerlink" title="2.代码区块,在代码区块前加四个空格(一个tab)"></a>2.代码区块,在代码区块前加四个空格(一个tab)</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">整个函数的前面都空出四个空格,一个·代表一个空格:</span><br><span class="line"></span><br><span class="line">····main()</span><br><span class="line">····&#123;</span><br><span class="line">····    return 0;</span><br><span class="line">····&#125;</span><br></pre></td></tr></table></figure>
-<p>上面的语法的显示如下:</p>
-<pre><code>main()
-&#123;
-    return 0;
-&#125;
-</code></pre>
-<h2 id="也可以用三个-来包含一段代码"><a href="#也可以用三个-来包含一段代码" class="headerlink" title="也可以用三个```来包含一段代码"></a>也可以用三个```来包含一段代码</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">` ` `</span><br><span class="line">main()</span><br><span class="line">&#123;</span><br><span class="line">   return 0;</span><br><span class="line">&#125;</span><br><span class="line">` ` `</span><br></pre></td></tr></table></figure>
-<p>上面的语法的显示如下:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">main()</span><br><span class="line">&#123;</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+    <title>初建博客</title>
+    <url>/2021/09/08/%E5%88%9D%E5%BB%BA%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>感谢来访，这是我的第一篇博客文章，今后我会不断更新博客内容！</p>
+<span id="more"></span>]]></content>
+  </entry>
+  <entry>
+    <title>hexo d部署网站时出现错误Error: Spawn failed(生成失败)</title>
+    <url>/2021/09/10/%E9%83%A8%E7%BD%B2%E7%BD%91%E7%AB%99%E6%97%B6%E5%87%BA%E7%8E%B0Error-Spawn-failed/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>关于博客使用过程中，进行远端部署时使用<code>hexo d</code>指令后可能会遇到的错误有很多，其中最常见的就是类似于下面<code>Error: Spawn failed</code>的错误。</p>
+<span id="more"></span>
 
 
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">nothing to commit, working tree clean</span><br><span class="line">fatal: unable to access &#x27;https://github.com/DinGHaoGG/DinGHaoGG.github.io.git/&#x27;: OpenSSL SSL_read: Connection was reset, errno 10054</span><br><span class="line">FATAL &#123;</span><br><span class="line">  err: Error: Spawn failed</span><br><span class="line">      at ChildProcess.&lt;anonymous&gt; (D:\blog\node_modules\hexo-util\lib\spawn.js:51:21)</span><br><span class="line">      at ChildProcess.emit (events.js:400:28)</span><br><span class="line">      at ChildProcess.cp.emit (D:\blog\node_modules\cross-spawn\lib\enoent.js:34:29)</span><br><span class="line">      at Process.ChildProcess._handle.onexit (internal/child_process.js:277:12) &#123;</span><br><span class="line">    code: 128</span><br><span class="line">  &#125;</span><br><span class="line">&#125; Something&#x27;s wrong. Maybe you can find the solution here: %s https://hexo.io/docs/troubleshooting.html</span><br></pre></td></tr></table></figure>
 
-
-<h1 id="11-链接"><a href="#11-链接" class="headerlink" title="11.链接"></a>11.链接</h1><h2 id="链接名称-链接地址-或者-lt-链接地址-gt"><a href="#链接名称-链接地址-或者-lt-链接地址-gt" class="headerlink" title="[链接名称] (链接地址) 或者 &lt;链接地址&gt;"></a>[链接名称] (链接地址) 或者 &lt;链接地址&gt;</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">这是[百度](https://www.baidu.com)的链接  </span><br><span class="line">&lt;https://www.baidu.com&gt;</span><br></pre></td></tr></table></figure>
-<p>上面的语法的显示如下:<br>这是<a href="https://www.baidu.com/">百度</a>的链接<br><a href="https://www.baidu.com/">https://www.baidu.com</a></p>
-<h2 id="高级链接的使用"><a href="#高级链接的使用" class="headerlink" title="高级链接的使用"></a>高级链接的使用</h2><p>这个链接用1作为网址变量[百度][1]<br>[1]:<a href="https://www.baidu.com/">https://www.baidu.com</a></p>
-<h1 id="12-图片"><a href="#12-图片" class="headerlink" title="12.图片"></a>12.图片</h1><h2 id="使用-alt-属性文本-图片地址"><a href="#使用-alt-属性文本-图片地址" class="headerlink" title="使用 ![alt 属性文本] (图片地址)"></a>使用 ![alt 属性文本] (图片地址)</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">其中alt是图片的替代文字  </span><br><span class="line">![王嘉尔](https://img1.baidu.com/it/u=304266880,560113530&amp;fm=253&amp;fmt=auto&amp;app=120&amp;f=JPEG?w=500&amp;h=625)</span><br></pre></td></tr></table></figure>
-<p>上面的语法的显示如下:<br>其中alt是图片的替代文字<br><img src="https://img1.baidu.com/it/u=304266880,560113530&fm=253&fmt=auto&app=120&f=JPEG?w=500&h=625" alt="王嘉尔"></p>
-<p>如果需要设置图片的宽高可以使用HTML中的<code>&lt;img&gt;</code>标签</p>
-<img src="https://img1.baidu.com/it/u=304266880,560113530&fm=253&fmt=auto&app=120&f=JPEG?w=500&h=625" width="50%">
-
-
-
-
-<h1 id="12-表格"><a href="#12-表格" class="headerlink" title="12.表格"></a>12.表格</h1><h2 id="使用-来分隔不同的单元格-使用-来分隔表头和其他行"><a href="#使用-来分隔不同的单元格-使用-来分隔表头和其他行" class="headerlink" title="使用|来分隔不同的单元格,使用-来分隔表头和其他行"></a>使用<code>|</code>来分隔不同的单元格,使用<code>-</code>来分隔表头和其他行</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">|  表头   | 表头  |</span><br><span class="line">|  ----  | ----  |</span><br><span class="line">| 单元格  | 单元格 |</span><br><span class="line">| 单元格  | 单元格 |</span><br></pre></td></tr></table></figure>
-<p>上面的语法的显示如下:<br>|  表头   | 表头  |<br>|  —-  | —-  |<br>| 单元格  | 单元格 |<br>| 单元格  | 单元格 |</p>
-<h2 id="使用-左对齐、-右对齐、-居中对齐"><a href="#使用-左对齐、-右对齐、-居中对齐" class="headerlink" title="使用:-左对齐、-:右对齐、:-:居中对齐"></a>使用<code>:-</code>左对齐、<code>-:</code>右对齐、<code>:-:</code>居中对齐</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">| 左对齐 | 右对齐 | 居中对齐 |</span><br><span class="line">|:----|----:|:----:|</span><br><span class="line">| 单元格 | 单元格 | 单元格 |</span><br><span class="line">| 单元格 | 单元格 | 单元格 |</span><br></pre></td></tr></table></figure>
-<p>上面的语法的显示如下:<br>| 左对齐 | 右对齐 | 居中对齐 |<br>|:—-|—-:|:—-:|<br>| 单元格 | 单元格 | 单元格 |<br>| 单元格 | 单元格 | 单元格 |</p>
+<p>这个错误的大致意思是不能够进入远端部署的网址，同时生成失败。以下解决方法只适用于已正确配置SSH的情况下。<br>解决方法:<br>&emsp;1.更换网络，用稳定的网络，避免因网络不流畅而导致部署超时。<br>&emsp;2.如果未关闭用<code>hexo s</code>命令打开的本地网页，到浏览器中关闭刚刚打开的网页。<br>&emsp;3.重新使用三件套<code>hexo clean</code>，<code>hexo g</code>，<code>hexo d</code>。<br>其中<code>hexo g</code>和<code>hexo d</code>指令可以直接使用<code>hexo g -d</code>这一条指令代替，效果是一样的。<br>如果对hexo的指令不熟悉可以查看<a href="https://hexo.io/zh-cn/docs/commands" title="Hexo指令文档">Hexo官方文档</a>。<br>最后完成部署的结果如下:INFO Deploy done: git</p>
 ]]></content>
+      <categories>
+        <category>博客</category>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
   </entry>
   <entry>
     <title>Python学习笔记</title>
@@ -347,6 +250,164 @@
       </tags>
   </entry>
   <entry>
+    <title>Markdown学习笔记</title>
+    <url>/2023/05/20/Markdown%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>这是一个Markdown学习笔记,用于方便我复习和查阅具体语法</p>
+<p><a href="https://www.runoob.com/markdown/md-tutorial.html">学习链接</a></p>
+<h1 id="1-标题"><a href="#1-标题" class="headerlink" title="1.标题"></a>1.标题</h1><h2 id="方式1-使用-号来表示1-6级标题"><a href="#方式1-使用-号来表示1-6级标题" class="headerlink" title="方式1:使用#号来表示1~6级标题"></a>方式1:使用<code>#</code>号来表示1~6级标题</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 这是一级标题</span><br><span class="line">## 二级标题</span><br><span class="line">### 三级标题</span><br><span class="line">#### 四级标题</span><br><span class="line">...</span><br></pre></td></tr></table></figure>
+<p>上面的语法的显示如下:</p>
+<h1 id="这是一级标题"><a href="#这是一级标题" class="headerlink" title="这是一级标题"></a>这是一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><p>…</p>
+<h2 id="方式2-在标题后换行并添加-来表示一级标题、-来表示二级标题-例如"><a href="#方式2-在标题后换行并添加-来表示一级标题、-来表示二级标题-例如" class="headerlink" title="方式2:在标题后换行并添加===来表示一级标题、---来表示二级标题,例如"></a>方式2:在标题后换行并添加<code>===</code>来表示一级标题、<code>---</code>来表示二级标题,例如</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">这是一级标题</span><br><span class="line">===</span><br></pre></td></tr></table></figure>
+<p>上面的语法的显示如下:</p>
+<h1 id="这是一级标题-1"><a href="#这是一级标题-1" class="headerlink" title="这是一级标题"></a>这是一级标题</h1><h1 id="2-段落换行"><a href="#2-段落换行" class="headerlink" title="2.段落换行"></a>2.段落换行</h1><h2 id="方式1-在第一行后面添加两个空格并换行"><a href="#方式1-在第一行后面添加两个空格并换行" class="headerlink" title="方式1:在第一行后面添加两个空格并换行"></a>方式1:在第一行后面添加两个空格并换行</h2><p>第一行(这有两个空格)<br>第二行</p>
+<h2 id="方式2-在第一行后添加一个空行"><a href="#方式2-在第一行后添加一个空行" class="headerlink" title="方式2:在第一行后添加一个空行"></a>方式2:在第一行后添加一个空行</h2><p>第一行<br>(空出一行)<br>第二行</p>
+<h1 id="3-字体"><a href="#3-字体" class="headerlink" title="3.字体"></a>3.字体</h1><h2 id="Markdown有以下3种字体，在两端加-星号实现"><a href="#Markdown有以下3种字体，在两端加-星号实现" class="headerlink" title="Markdown有以下3种字体，在两端加*星号实现"></a>Markdown有以下3种字体，在两端加<code>*</code>星号实现</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">*斜体*  </span><br><span class="line">**粗体**  </span><br><span class="line">***斜粗体***</span><br></pre></td></tr></table></figure>
+<p>上面的语法的显示如下:</p>
+<p><em>斜体</em><br><strong>粗体</strong><br><em><strong>斜粗体</strong></em></p>
+<h2 id="同时也可以用-下划线代替-星号-例如"><a href="#同时也可以用-下划线代替-星号-例如" class="headerlink" title="同时也可以用_下划线代替*星号,例如"></a>同时也可以用<code>_</code>下划线代替<code>*</code>星号,例如</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">_斜体_</span><br></pre></td></tr></table></figure>
+<p>上面的语法的显示如下:   <em>斜体</em></p>
+<h1 id="4-分隔线"><a href="#4-分隔线" class="headerlink" title="4.分隔线"></a>4.分隔线</h1><h2 id="在一行中用三个以上的-星号、-减号、-下划线来建立分割线，行内不能有其他字符"><a href="#在一行中用三个以上的-星号、-减号、-下划线来建立分割线，行内不能有其他字符" class="headerlink" title="在一行中用三个以上的*星号、-减号、_下划线来建立分割线，行内不能有其他字符"></a>在一行中用三个以上的<code>*</code>星号、<code>-</code>减号、<code>_</code>下划线来建立分割线，行内不能有其他字符</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">***</span><br><span class="line">---</span><br><span class="line">___</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>上面的语法的显示如下: </p>
+<hr>
+<hr>
+<hr>
+<h1 id="5-删除线"><a href="#5-删除线" class="headerlink" title="5.删除线"></a>5.删除线</h1><h2 id="在文字的两端加"><a href="#在文字的两端加" class="headerlink" title="在文字的两端加~~"></a>在文字的两端加<code>~~</code></h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">~~这是一条删除线~~</span><br></pre></td></tr></table></figure>
+<p>上面的语法的显示如下:<del>这是一条删除线</del></p>
+<h1 id="6-下划线"><a href="#6-下划线" class="headerlink" title="6.下划线"></a>6.下划线</h1><h2 id="通过使用HTML中的-lt-u-gt-标签来实现"><a href="#通过使用HTML中的-lt-u-gt-标签来实现" class="headerlink" title="通过使用HTML中的&lt;u&gt;标签来实现"></a>通过使用HTML中的<code>&lt;u&gt;</code>标签来实现</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;u&gt;这是一条下划线&lt;/u&gt;</span><br></pre></td></tr></table></figure>
+<p>上面的语法的显示如下:<u>这是一条下划线</u></p>
+<h1 id="7-脚注"><a href="#7-脚注" class="headerlink" title="7.脚注"></a>7.脚注</h1><h2 id="脚注的格式为-要注明的文本"><a href="#脚注的格式为-要注明的文本" class="headerlink" title="脚注的格式为: [^要注明的文本]"></a>脚注的格式为: [^要注明的文本]</h2><p>这是一个脚注[^脚注]<br>[^脚注]:脚注的内容</p>
+<h1 id="8-列表"><a href="#8-列表" class="headerlink" title="8.列表"></a>8.列表</h1><h2 id="1-无序列表-在前面加-星号、-加号、-减号都可以"><a href="#1-无序列表-在前面加-星号、-加号、-减号都可以" class="headerlink" title="1.无序列表,在前面加*星号、+加号、-减号都可以"></a>1.无序列表,在前面加<code>*</code>星号、<code>+</code>加号、<code>-</code>减号都可以</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">* 第一项</span><br><span class="line">+ 第二项</span><br><span class="line">- 第三项</span><br></pre></td></tr></table></figure>
+<p>上面的语法的显示如下:</p>
+<ul>
+<li>第一项</li>
+</ul>
+<ul>
+<li>第二项</li>
+</ul>
+<ul>
+<li>第三项</li>
+</ul>
+<h2 id="2-有序列表，使用数字并加上-点号"><a href="#2-有序列表，使用数字并加上-点号" class="headerlink" title="2.有序列表，使用数字并加上.点号"></a>2.有序列表，使用数字并加上<code>.</code>点号</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1. 第一项</span><br><span class="line">2. 第二项</span><br><span class="line">3. 第三项</span><br></pre></td></tr></table></figure>
+<p>上面的语法的显示如下:</p>
+<ol>
+<li>第一项</li>
+<li>第二项</li>
+<li>第三项</li>
+</ol>
+<h2 id="3-嵌套列表，在子列表的前面加上四个空格"><a href="#3-嵌套列表，在子列表的前面加上四个空格" class="headerlink" title="3.嵌套列表，在子列表的前面加上四个空格"></a>3.嵌套列表，在子列表的前面加上四个空格</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1. 第一项</span><br><span class="line">    * 第一项的第一个元素</span><br><span class="line">    * 第二个元素</span><br><span class="line">2. 第二项</span><br><span class="line">    * 第二项的第一个元素</span><br><span class="line">    * 第二个元素</span><br></pre></td></tr></table></figure>
+<p>上面的语法的显示如下:</p>
+<ol>
+<li>第一项<ul>
+<li>第一项的第一个元素</li>
+<li>第二个元素</li>
+</ul>
+</li>
+<li>第二项<ul>
+<li>第二项的第一个元素</li>
+<li>第二个元素</li>
+</ul>
+</li>
+</ol>
+<h1 id="9-区块"><a href="#9-区块" class="headerlink" title="9.区块"></a>9.区块</h1><h2 id="在段落开头使用-gt-大于符号"><a href="#在段落开头使用-gt-大于符号" class="headerlink" title="在段落开头使用&gt;大于符号"></a>在段落开头使用<code>&gt;</code>大于符号</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&gt;区块的使用    </span><br><span class="line">&gt;这一片区域就是区块</span><br><span class="line"></span><br><span class="line">&gt;这是第二个区块</span><br></pre></td></tr></table></figure>
+<p>上面的语法的显示如下:</p>
+<blockquote>
+<p>区块的使用<br>这一片区域就是区块</p>
+</blockquote>
+<blockquote>
+<p>这是第二个区块</p>
+</blockquote>
+<h2 id="区块可以和列表搭配使用"><a href="#区块可以和列表搭配使用" class="headerlink" title="区块可以和列表搭配使用"></a>区块可以和列表搭配使用</h2><p>区块中使用列表</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&gt;1. 第一项</span><br><span class="line">&gt;    * 第一项的子项</span><br><span class="line">&gt;2. 第二项</span><br></pre></td></tr></table></figure>
+<p>上面的语法的显示如下:</p>
+<blockquote>
+<ol>
+<li>第一项<ul>
+<li>第一项的子项</li>
+</ul>
+</li>
+<li>第二项</li>
+</ol>
+</blockquote>
+<p>列表中使用区块</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1. 第一项</span><br><span class="line">    &gt;这是一个区块  </span><br><span class="line">    &gt;区块内容</span><br><span class="line">2. 第二项</span><br></pre></td></tr></table></figure>
+<p>上面的语法的显示如下:</p>
+<ol>
+<li>第一项<blockquote>
+<p>这是一个区块<br>区块内容</p>
+</blockquote>
+</li>
+<li>第二项</li>
+</ol>
+<h1 id="10-代码"><a href="#10-代码" class="headerlink" title="10.代码"></a>10.代码</h1><h2 id="1-单个函数或代码片段可以在两端加上-符号"><a href="#1-单个函数或代码片段可以在两端加上-符号" class="headerlink" title="1.单个函数或代码片段可以在两端加上`符号"></a>1.单个函数或代码片段可以在两端加上<code>`</code>符号</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">`print()`函数</span><br></pre></td></tr></table></figure>
+<p>上面的语法的显示如下:<code>print()</code>函数</p>
+<h2 id="2-代码区块-在代码区块前加四个空格-一个tab"><a href="#2-代码区块-在代码区块前加四个空格-一个tab" class="headerlink" title="2.代码区块,在代码区块前加四个空格(一个tab)"></a>2.代码区块,在代码区块前加四个空格(一个tab)</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">整个函数的前面都空出四个空格,一个·代表一个空格:</span><br><span class="line"></span><br><span class="line">····main()</span><br><span class="line">····&#123;</span><br><span class="line">····    return 0;</span><br><span class="line">····&#125;</span><br></pre></td></tr></table></figure>
+<p>上面的语法的显示如下:</p>
+<pre><code>main()
+&#123;
+    return 0;
+&#125;
+</code></pre>
+<h2 id="也可以用三个-来包含一段代码"><a href="#也可以用三个-来包含一段代码" class="headerlink" title="也可以用三个```来包含一段代码"></a>也可以用三个```来包含一段代码</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">` ` `</span><br><span class="line">main()</span><br><span class="line">&#123;</span><br><span class="line">   return 0;</span><br><span class="line">&#125;</span><br><span class="line">` ` `</span><br></pre></td></tr></table></figure>
+<p>上面的语法的显示如下:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">main()</span><br><span class="line">&#123;</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+
+<h1 id="11-链接"><a href="#11-链接" class="headerlink" title="11.链接"></a>11.链接</h1><h2 id="链接名称-链接地址-或者-lt-链接地址-gt"><a href="#链接名称-链接地址-或者-lt-链接地址-gt" class="headerlink" title="[链接名称] (链接地址) 或者 &lt;链接地址&gt;"></a>[链接名称] (链接地址) 或者 &lt;链接地址&gt;</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">这是[百度](https://www.baidu.com)的链接  </span><br><span class="line">&lt;https://www.baidu.com&gt;</span><br></pre></td></tr></table></figure>
+<p>上面的语法的显示如下:<br>这是<a href="https://www.baidu.com/">百度</a>的链接<br><a href="https://www.baidu.com/">https://www.baidu.com</a></p>
+<h2 id="高级链接的使用"><a href="#高级链接的使用" class="headerlink" title="高级链接的使用"></a>高级链接的使用</h2><p>这个链接用1作为网址变量[百度][1]<br>[1]:<a href="https://www.baidu.com/">https://www.baidu.com</a></p>
+<h1 id="12-图片"><a href="#12-图片" class="headerlink" title="12.图片"></a>12.图片</h1><h2 id="使用-alt-属性文本-图片地址"><a href="#使用-alt-属性文本-图片地址" class="headerlink" title="使用 ![alt 属性文本] (图片地址)"></a>使用 ![alt 属性文本] (图片地址)</h2><p>其中alt是图片的替代文字</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![王嘉尔](https://img1.baidu.com/it/u=304266880,560113530&amp;fm=253&amp;fmt=auto&amp;app=120&amp;f=JPEG?w=500&amp;h=625)</span><br></pre></td></tr></table></figure>
+<p>上面的语法的显示如下:<br>其中alt是图片的替代文字<br><img src="https://img1.baidu.com/it/u=304266880,560113530&fm=253&fmt=auto&app=120&f=JPEG?w=500&h=625" alt="王嘉尔"></p>
+<p>如果需要设置图片的宽高可以使用HTML中的<code>&lt;img&gt;</code>标签</p>
+<img src="https://img1.baidu.com/it/u=304266880,560113530&fm=253&fmt=auto&app=120&f=JPEG?w=500&h=625" width="50%">
+
+
+
+
+<h1 id="12-表格"><a href="#12-表格" class="headerlink" title="12.表格"></a>12.表格</h1><h2 id="使用-来分隔不同的单元格-使用-来分隔表头和其他行"><a href="#使用-来分隔不同的单元格-使用-来分隔表头和其他行" class="headerlink" title="使用|来分隔不同的单元格,使用-来分隔表头和其他行"></a>使用<code>|</code>来分隔不同的单元格,使用<code>-</code>来分隔表头和其他行</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">|  表头   | 表头  |</span><br><span class="line">|  ----  | ----  |</span><br><span class="line">| 单元格  | 单元格 |</span><br><span class="line">| 单元格  | 单元格 |</span><br></pre></td></tr></table></figure>
+<p>上面的语法的显示如下:</p>
+<table>
+<thead>
+<tr>
+<th>表头</th>
+<th>表头</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>单元格</td>
+<td>单元格</td>
+</tr>
+<tr>
+<td>单元格</td>
+<td>单元格</td>
+</tr>
+</tbody></table>
+<h2 id="使用-左对齐、-右对齐、-居中对齐"><a href="#使用-左对齐、-右对齐、-居中对齐" class="headerlink" title="使用:-左对齐、-:右对齐、:-:居中对齐"></a>使用<code>:-</code>左对齐、<code>-:</code>右对齐、<code>:-:</code>居中对齐</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">| 左对齐 | 右对齐 | 居中对齐 |</span><br><span class="line">|:----|----:|:----:|</span><br><span class="line">| 单元格 | 单元格 | 单元格 |</span><br><span class="line">| 单元格 | 单元格 | 单元格 |</span><br></pre></td></tr></table></figure>
+<p>上面的语法的显示如下:</p>
+<table>
+<thead>
+<tr>
+<th align="left">左对齐</th>
+<th align="right">右对齐</th>
+<th align="center">居中对齐</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">单元格</td>
+<td align="right">单元格</td>
+<td align="center">单元格</td>
+</tr>
+<tr>
+<td align="left">单元格</td>
+<td align="right">单元格</td>
+<td align="center">单元格</td>
+</tr>
+</tbody></table>
+]]></content>
+  </entry>
+  <entry>
     <title>如何新建一篇博客文章</title>
     <url>/2021/10/27/%E5%A6%82%E4%BD%95%E6%96%B0%E5%BB%BA%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="使用命令生成Markdown文件"><a href="#使用命令生成Markdown文件" class="headerlink" title="使用命令生成Markdown文件"></a>使用命令生成Markdown文件</h1><h2 id="什么是Markdown"><a href="#什么是Markdown" class="headerlink" title="什么是Markdown?"></a>什么是Markdown?</h2><p>Markdown 是一种 <strong>轻量级标记语言</strong>，它允许人们使用易读易写的纯文本格式编写文档。</p>
@@ -372,31 +433,6 @@
 <p>当然Markdown的编辑器有很多，不一定只局限于Typora，更多主流的编辑器可以到CSDN该博主的文章中进行参考和选择<a href="https://itrhx.blog.csdn.net/article/details/82229243">最新主流 Markdown 编辑器推荐_TRHX’S BLOG-CSDN博客_markdown编辑器推荐</a>.</p>
 <p>用编辑器写好博客内容就可以直接发布啦~</p>
 <p>至此关于如何新建第一篇博客文章的内容就结束了，因为博主也是刚搭建好博客不久，想把自己学到的知识记录下来，如果该文章中出现了什么错误或是对文章的内容有什么疑问，欢迎大家在下方评论。</p>
-]]></content>
-      <categories>
-        <category>博客</category>
-        <category>Hexo</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>初建博客</title>
-    <url>/2021/09/08/%E5%88%9D%E5%BB%BA%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>感谢来访，这是我的第一篇博客文章，今后我会不断更新博客内容！</p>
-<span id="more"></span>]]></content>
-  </entry>
-  <entry>
-    <title>hexo d部署网站时出现错误Error: Spawn failed(生成失败)</title>
-    <url>/2021/09/10/%E9%83%A8%E7%BD%B2%E7%BD%91%E7%AB%99%E6%97%B6%E5%87%BA%E7%8E%B0Error-Spawn-failed/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>关于博客使用过程中，进行远端部署时使用<code>hexo d</code>指令后可能会遇到的错误有很多，其中最常见的就是类似于下面<code>Error: Spawn failed</code>的错误。</p>
-<span id="more"></span>
-
-
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">nothing to commit, working tree clean</span><br><span class="line">fatal: unable to access &#x27;https://github.com/DinGHaoGG/DinGHaoGG.github.io.git/&#x27;: OpenSSL SSL_read: Connection was reset, errno 10054</span><br><span class="line">FATAL &#123;</span><br><span class="line">  err: Error: Spawn failed</span><br><span class="line">      at ChildProcess.&lt;anonymous&gt; (D:\blog\node_modules\hexo-util\lib\spawn.js:51:21)</span><br><span class="line">      at ChildProcess.emit (events.js:400:28)</span><br><span class="line">      at ChildProcess.cp.emit (D:\blog\node_modules\cross-spawn\lib\enoent.js:34:29)</span><br><span class="line">      at Process.ChildProcess._handle.onexit (internal/child_process.js:277:12) &#123;</span><br><span class="line">    code: 128</span><br><span class="line">  &#125;</span><br><span class="line">&#125; Something&#x27;s wrong. Maybe you can find the solution here: %s https://hexo.io/docs/troubleshooting.html</span><br></pre></td></tr></table></figure>
-
-<p>这个错误的大致意思是不能够进入远端部署的网址，同时生成失败。以下解决方法只适用于已正确配置SSH的情况下。<br>解决方法:<br>&emsp;1.更换网络，用稳定的网络，避免因网络不流畅而导致部署超时。<br>&emsp;2.如果未关闭用<code>hexo s</code>命令打开的本地网页，到浏览器中关闭刚刚打开的网页。<br>&emsp;3.重新使用三件套<code>hexo clean</code>，<code>hexo g</code>，<code>hexo d</code>。<br>其中<code>hexo g</code>和<code>hexo d</code>指令可以直接使用<code>hexo g -d</code>这一条指令代替，效果是一样的。<br>如果对hexo的指令不熟悉可以查看<a href="https://hexo.io/zh-cn/docs/commands" title="Hexo指令文档">Hexo官方文档</a>。<br>最后完成部署的结果如下:INFO Deploy done: git</p>
 ]]></content>
       <categories>
         <category>博客</category>
